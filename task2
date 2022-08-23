@@ -1,0 +1,16 @@
+//SPDX-License-Identifier:MIT
+pragma solidity ^0.8.7;
+
+contract SolidityTest {
+   uint public state = 10;
+  
+
+   function statevariable() public view returns(uint){
+      return state; 
+   }
+
+ function localvariable() public view returns(uint){
+       uint local = 20;
+      return local; //access the local variable
+   }
+}
